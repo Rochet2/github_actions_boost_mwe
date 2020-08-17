@@ -1,3 +1,6 @@
+cmake_minimum_required(VERSION 3.11)
+project(Example)
+
 # From https://stackoverflow.com/a/3917033/3586583
 
 add_subdirectory(cmake)
