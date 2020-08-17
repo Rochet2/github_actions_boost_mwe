@@ -1,4 +1,4 @@
-// From https://github.com/TrinityCore/TrinityCore/blob/71db17220ae67dc6a354e88451ffc0700fe6c5f9/dep/boost/CMakeLists.txt
+# From https://github.com/TrinityCore/TrinityCore/blob/71db17220ae67dc6a354e88451ffc0700fe6c5f9/dep/boost/CMakeLists.txt
 
 # This file is part of the TrinityCore Project. See AUTHORS file for Copyright information
 #
