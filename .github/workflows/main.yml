@@ -35,6 +35,10 @@ jobs:
         ls -lah $BOOST_ROOT/lib
         echo baz
         ls -lah $BOOST_ROOT/libs
+    - name: Install dependencies
+      run: |
+        sudo apt-get install git clang cmake make gcc g++ libssl-dev libbz2-dev libreadline-dev libncurses-dev p7zip
+        sudo apt-get install mysql-server default-libmysqlclient-dev libmysqlclient-dev libmysql++-dev
     - uses: actions/checkout@v2
     - name: Build & install
       run: |
